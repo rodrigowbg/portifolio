@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+
+    <!--
+        ==========================================================
+        PORTFÓLIO PROFISSIONAL - RODRIGO WILLIAN
+
+        Objetivo:
+        Demonstrar conceitos de desenvolvimento Front-end
+        utilizando HTML, CSS, JavaScript e integração com API.
+
+        Recursos abordados:
+        - HTML5 Semântico
+        - CSS Responsivo
+        - JavaScript
+        - Consumo de API
+        - Integração com Banco de Dados
+        - Experiência do Usuário (UX)
+
+        Autor: Rodrigo Willian Batista Guilherme
+        ==========================================================
+    -->
+
+<html lang="pt-BR">
+
+    <head>
+
+        <!-- Define a codificação de caracteres -->
+        <meta charset="UTF-8">
+
+        <!-- Responsividade para dispositivos móveis -->
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        >
+
+        <!-- Título exibido na aba do navegador -->
+        <title>
+            Rodrigo Willian | Portfólio Profissional
+        </title>
+
+        <!-- Arquivo de estilos -->
+        <link
+            rel="stylesheet"
+            href="css/style.css"
+        >
+
+        <!-- Font Awesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        >
+
+    </head>
+
+    <body>
+            
+        <!-- ==================================================
+            CABEÇALHO
+        =================================================== -->
+
+        <header>
+
+            <!-- Foto de perfil -->
+
+            <img
+                src="img/perfil.jpg"
+                alt="Foto de Rodrigo Willian Batista Guilherme"
+                class="foto-perfil"
+            >
+
+            <!-- Nome completo -->
+
+            <h1>
+                Rodrigo Willian Batista Guilherme
+            </h1>
+
+            <!-- Descrição profissional -->
+
+            <p>
+                Analista de Banco de Dados |
+                Especialista em SQL |
+                Instrutor de Tecnologia da Informação
+            </p>
+
+            <!-- ==================================================
+                MENU DE NAVEGAÇÃO
+
+                Utiliza âncoras para navegação dentro
+                da própria página.
+            =================================================== -->
+
+            <nav>
+
+                <a href="#sobre">
+                    Sobre
+                </a>
+
+                <a href="#competencias">
+                    Competências
+                </a>
+
+                <a href="#formacao">
+                    Formação
+                </a>
+
+                <a href="#experiencias">
+                    Experiências
+                </a>
+
+                <a href="#voluntariado">
+                    Voluntariado
+                </a>
+
+                <a href="#projetos">
+                    Projetos
+                </a>
+
+                <a href="#certificacoes">
+                    Certificações
+                </a>
+
+                <a href="#contato">
+                    Contato
+                </a>
+
+            </nav>
+
+            <!-- ==================================================
+                STATUS DA API
+
+                Este indicador será atualizado via JavaScript.
+
+                Online:
+                🟢 API Online
+
+                Offline:
+                🔴 API Offline
+            =================================================== -->
+
+            <div
+                id="statusApi"
+                class="status-api offline"
+            >
+
+                🔴 API Offline
+
+            </div>
+
+        </header>
+
+        <!-- ==================================================
+            CONTEÚDO PRINCIPAL
+        =================================================== -->
+
+        <main>
+                    
+            <!-- ===============================================
+                SEÇÃO SOBRE MIM
+            ================================================ -->
+
+            <section id="sobre">
+
+                <h2>
+                    Sobre Mim
+                </h2>
+
+                <p>
+                    Profissional de Tecnologia da Informação com
+                    mais de 15 anos de experiência em suporte
+                    técnico, operações, análise de dados e
+                    administração de bancos de dados.
+                </p>
+
+                <br>
+
+                <p>
+                    Experiência em Oracle, SQL Server,
+                    automação de processos, performance tuning,
+                    dashboards gerenciais e desenvolvimento de
+                    soluções para apoio à tomada de decisão.
+                </p>
+
+                <br>
+
+                <p>
+                    Atuação como instrutor de informática e
+                    educador voluntário, desenvolvendo
+                    competências de ensino, comunicação,
+                    liderança e formação de pessoas em
+                    diferentes contextos educacionais.
+                </p>
+
+            </section>
+
+            <!-- ===============================================
+                COMPETÊNCIAS TÉCNICAS E PROFISSIONAIS
+
+                Dados carregados dinamicamente via API.
+            ================================================ -->
+
+            <section id="competencias">
+
+                <h2>
+                    Competências Técnicas e Profissionais
+                </h2>
+
+                <p>
+                    Competências organizadas em categorias e
+                    carregadas dinamicamente através da API REST.
+                </p>
+
+                <br>
+
+                <p>
+                    Esta seção demonstra integração entre
+                    Front-end, JavaScript, JSON Server e
+                    manipulação dinâmica do DOM.
+                </p>
+
+                <!--
+                    Container preenchido pelo JavaScript.
+
+                    O script consumirá o endpoint:
+
+                    /competencias
+
+                    e construirá os cards dinamicamente.
+                -->
+
+                <div id="listaCompetencias">
+
+                    <p class="loading">
+                        Carregando competências...
+                    </p>
+
+                </div>
+
+            </section>
+                    
+            <!-- ===============================================
+                FORMAÇÃO ACADÊMICA
+            ================================================ -->
+
+            <section id="formacao">
+
+                <h2>
+                    Formação Acadêmica
+                </h2>
+
+                <div id="listaFormacao">
+
+                    <p class="loading">
+                        Carregando formação...
+                    </p>
+
+                </div>
+
+            </section>
+
+            <!-- ===============================================
+                EXPERIÊNCIAS PROFISSIONAIS
+            ================================================ -->
+
+            <section id="experiencias">
+
+                <h2>
+                    Experiências Profissionais
+                </h2>
+
+                <p>
+                    Histórico profissional carregado
+                    dinamicamente através da integração
+                    entre Front-end, API REST e banco
+                    de dados.
+                </p>
+
+                <div id="listaExperiencias">
+
+                    <p class="loading">
+                        Carregando experiências...
+                    </p>
+
+                </div>
+
+            </section>
+
+            <!-- ===============================================
+                VOLUNTARIADO
+            ================================================ -->
+
+            <section id="voluntariado">
+
+                <h2>
+                    Atuação Voluntária
+                </h2>
+
+                <p>
+                    Experiências relacionadas à educação,
+                    liderança e desenvolvimento de pessoas.
+                </p>
+
+                <div id="listaVoluntariado">
+
+                    <p class="loading">
+                        Carregando voluntariado...
+                    </p>
+
+                </div>
+
+            </section>
+
+            <!-- ===============================================
+                PROJETOS RELEVANTES
+            ================================================ -->
+
+            <section id="projetos">
+
+                <h2>
+                    Projetos Relevantes
+                </h2>
+
+                <div id="listaProjetos">
+
+                    <p class="loading">
+                        Carregando projetos...
+                    </p>
+
+                </div>
+
+            </section>
+
+            <!-- ===============================================
+                CERTIFICAÇÕES
+            ================================================ -->
+
+            <section id="certificacoes">
+
+                <h2>
+                    Cursos e Certificações
+                </h2>
+
+                <div id="listaCertificacoes">
+
+                    <p class="loading">
+                        Carregando certificações...
+                    </p>
+
+                </div>
+
+            </section>
+
+            <!-- ===============================================
+                CONTATO
+            ================================================ -->
+
+            <section id="contato">
+
+                <h2>
+                    Contato
+                </h2>
+
+                <!-- E-mail -->
+                <div class="contato-grid">
+
+                    <a
+                        href="mailto:rodrigowbg@gmail.com?subject=Contato%20Profissional%20via%20Portf%C3%B3lio&body=Olá%20Rodrigo,%0A%0AConheci%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade,%20projeto%20ou%20parceria.%0A%0AAtenciosamente,"
+                        class="contato-link email-link"
+                        title="Clique para enviar um e-mail"
+                    >
+                        <i class="fa-solid far fa-envelope"></i>
+                        E-mail
+                    </a>
+
+                    <!-- WhatsApp -->
+                    <a
+                        href="https://wa.me/5535998918723?text=Olá%20Rodrigo,%20vi%20seu%20portfólio."
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contato-link whatsapp-link"
+                        title="Clique para conversar pelo WhatsApp"
+                    >
+                        <i class="fa-brands fab fa-whatsapp"></i>
+                        WhatsApp
+                    </a>
+
+                    <!-- GitHub -->
+                    <a
+                        href="https://github.com/rodrigowbg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contato-link github-link"
+                        title="Acessar perfil no GitHub"
+                    >
+                        <i class="fa-brands fab fa-github"></i>
+                        GitHub
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a
+                        href="https://www.linkedin.com/in/rodrigo-willian"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="contato-link linkedin-link"
+                        title="Acessar perfil no LinkedIn"
+                    >
+                        <i class="fa-brands fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <!-- ==================================================
+            RODAPÉ
+        =================================================== -->
+
+        <footer>
+
+            <p>
+                © 2026 Rodrigo Willian Batista Guilherme
+            </p>
+
+            <p>
+                Desenvolvido com HTML5, CSS3, JavaScript,
+                API REST, JSON Server e boas práticas de UX/UI.
+            </p>
+
+        </footer>
+
+        <!-- ==================================================
+            JAVASCRIPT
+
+            Responsável por:
+            - Consumo da API
+            - Atualização do status da API
+            - Manipulação do DOM
+            - Tratamento de erros
+            - Integração com banco de dados
+        =================================================== -->
+
+        <script src="js/script.js"></script>
+
+    </body>
+
+</html>

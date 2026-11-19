@@ -1,0 +1,204 @@
+{
+  "perfil": {
+    "nome": "Rodrigo Willian Batista Guilherme",
+    "cargo": "Analista de Banco de Dados | Especialista em SQL | Instrutor de Tecnologia da Informação",
+    "email": "rodrigowbg@gmail.com",
+    "telefone": "(35) 99891-8723",
+    "linkedin": "https://www.linkedin.com/in/rodrigo-willian",
+    "github": "https://github.com/rodrigowbg",
+    "foto": "img/perfil.jpg"
+  },
+
+  "competencias": [
+    {
+      "categoria": "Banco de Dados e Análise de Dados",
+      "itens": [
+        "SQL (Avançado)",
+        "Oracle",
+        "SQL Server",
+        "Banco de Dados Relacionais",
+        "Administração de Banco de Dados",
+        "Modelagem de Dados",
+        "Performance Tuning",
+        "Análise de Dados",
+        "Dashboards e Indicadores",
+        "Metabase",
+        "ETL e Manipulação de Dados"
+      ]
+    },
+    {
+      "categoria": "Infraestrutura e Operações de TI",
+      "itens": [
+        "Infraestrutura de TI",
+        "Linux",
+        "Windows",
+        "Suporte Técnico",
+        "Troubleshooting",
+        "Monitoramento de Ambientes",
+        "Gestão de Incidentes",
+        "ITIL",
+        "GLPI",
+        "Jira",
+        "Confluence"
+      ]
+    },
+    {
+      "categoria": "Desenvolvimento e Tecnologia",
+      "itens": [
+        "Lógica de Programação",
+        "Estruturas de Dados",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "JSON",
+        "APIs REST",
+        "Git",
+        "GitHub",
+        "Controle de Versionamento",
+        "Automação de Processos",
+        "Documentação Técnica"
+      ]
+    },
+    {
+      "categoria": "Competências Comportamentais e Educacionais",
+      "itens": [
+        "Capacidade Analítica",
+        "Resolução de Problemas",
+        "Organização",
+        "Proatividade",
+        "Atenção aos Detalhes",
+        "Trabalho em Equipe",
+        "Comunicação Oral",
+        "Comunicação Escrita",
+        "Didática",
+        "Liderança",
+        "Mentoria e Desenvolvimento de Pessoas",
+        "Planejamento",
+        "Pensamento Crítico",
+        "Aprendizagem Contínua",
+        "Adaptabilidade",
+        "Gestão do Tempo",
+        "Orientação para Resultados",
+        "Mediação de Conflitos",
+        "Empatia",
+        "Inteligência Emocional",
+        "Tomada de Decisão",
+        "Ética Profissional"
+      ]
+    }
+  ],
+
+  "formacao": [
+    {
+      "curso": "Bacharelado em Sistemas de Informação",
+      "instituicao": "Faculdade Presbiteriana Gammon (FAGAMMON)",
+      "conclusao": "2019"
+    }
+  ],
+
+  "experiencias": [
+    {
+      "cargo": "Analista de Banco de Dados",
+      "empresa": "Linx Software Participações em Tecnologia S.A.",
+      "periodo": "05/2024 - 10/2025",
+      "descricao": "Administração e otimização de bancos Oracle e SQL Server, desenvolvimento de consultas SQL avançadas, análise de dados, monitoramento de desempenho e performance tuning."
+    },
+    {
+      "cargo": "Analista de Operações",
+      "empresa": "Linx Software Participações em Tecnologia S.A.",
+      "periodo": "11/2020 - 05/2024",
+      "descricao": "Monitoramento operacional, automação de processos, geração de indicadores, análise de desempenho e suporte às operações de negócio."
+    },
+    {
+      "cargo": "Analista de Suporte Help Desk",
+      "empresa": "FUNDECC (UFLA)",
+      "periodo": "06/2018 - 07/2020",
+      "descricao": "Atendimento a usuários, suporte técnico, administração de ativos de TI, gerenciamento de chamados e participação na implantação institucional do GLPI."
+    },
+    {
+      "cargo": "Técnico de Informática",
+      "empresa": "Premium Informática",
+      "periodos": [
+        "12/2015 - 01/2017",
+        "02/2018 - 06/2018"
+      ],
+      "descricao": "Manutenção de computadores, instalação de sistemas operacionais, redes, suporte técnico e atendimento ao cliente."
+    },
+    {
+      "cargo": "Professor e Técnico de Informática",
+      "empresa": "Microlins",
+      "periodos": [
+        "12/2011 - 10/2013",
+        "03/2015 - 07/2015"
+      ],
+      "descricao": "Ministração de aulas de informática, acompanhamento pedagógico, manutenção de computadores e suporte aos laboratórios."
+    },
+    {
+      "cargo": "Professor e Técnico de Informática",
+      "empresa": "The Best Idiomas e Informática",
+      "periodo": "03/2010 - 11/2010",
+      "descricao": "Ministração de cursos de informática, suporte aos equipamentos e atendimento aos alunos."
+    },
+    {
+      "cargo": "Estagiário de Tecnologia da Informação",
+      "empresa": "Instituto Presbiteriano Gammon",
+      "periodo": "08/2008 - 11/2009",
+      "descricao": "Suporte técnico, manutenção de computadores, inventário de equipamentos e apoio à infraestrutura de TI."
+    }
+  ],
+
+  "voluntariado": [
+    {
+      "cargo": "Educador (Escotista) - Ramo Lobinho",
+      "organizacao": "Escoteiros do Brasil - 22º Grupo Escoteiro Acauã",
+      "periodo": "11/2025 - Atual",
+      "descricao": "Atuação voluntária com crianças de 6 a 10 anos, conduzindo atividades educativas baseadas no Método Escoteiro, promovendo liderança, cidadania, trabalho em equipe e desenvolvimento pessoal."
+    }
+  ],
+
+  "projetos": [
+    {
+      "nome": "Implantação do GLPI na UFLA",
+      "descricao": "Projeto piloto desenvolvido em parceria com a Diretoria de Gestão de Tecnologia da Informação (DGTI) da Universidade Federal de Lavras. Responsável pela estruturação de categorias, SLAs, fluxos de atendimento, base de conhecimento e melhoria dos níveis de serviço.",
+      "resultado": "O projeto foi utilizado como Trabalho de Conclusão de Curso (TCC), evoluiu para implantação institucional e permanece em utilização pela Universidade Federal de Lavras.",
+      "link": "https://glpi.ufla.br/",
+      "tituloLink": "GLPI - UFLA"
+    },
+    {
+      "nome": "Automação de Consultas SQL",
+      "descricao": "Desenvolvimento de consultas e scripts SQL para monitoramento operacional, auditorias internas, geração de indicadores e automação de processos."
+    },
+    {
+      "nome": "Dashboards no Metabase",
+      "descricao": "Criação de dashboards e indicadores estratégicos para apoio à tomada de decisão e acompanhamento de métricas operacionais."
+    }
+  ],
+
+  "certificacoes": [
+    {
+      "nome": "Oracle SQL e PL/SQL",
+      "instituicao": "Udemy",
+      "ano": "2024"
+    },
+    {
+      "nome": "Git e GitHub para Iniciantes",
+      "instituicao": "Udemy",
+      "ano": "2024"
+    },
+    {
+      "nome": "Infraestrutura de Dados",
+      "instituicao": "SoulCode Academy",
+      "ano": "2023"
+    },
+    {
+      "nome": "Dashboards no Metabase",
+      "instituicao": "Udemy",
+      "ano": "2023"
+    },
+    {
+      "nome": "Desmistificando a Inteligência Artificial",
+      "instituicao": "SoulCode Academy",
+      "ano": "2023"
+    }
+  ]
+}
